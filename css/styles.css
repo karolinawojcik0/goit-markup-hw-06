@@ -700,20 +700,22 @@ ol {
 }
 
 .e-mail {
-
+  color: #ffffff;
   background-color: transparent;
   width: 264px;
   height: 40px;
-
   border-radius: 4px;
   border: 1px solid var(--white-background);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
-
   display: flex;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5px;
-  letter-spacing: 0.04px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+}
+
+.e-mail::placeholder {
+  color: #ffffff;
 }
