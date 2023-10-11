@@ -497,7 +497,12 @@ ol {
 
 .subscribe-footer {
   color: var(--white-background);
-
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .newsletter-form {
@@ -695,19 +700,20 @@ ol {
 }
 
 .e-mail {
-  display: flex;
 
-  color: var(--white-background);
   background-color: transparent;
+  width: 264px;
+  height: 40px;
+
+  border-radius: 4px;
+  border: 1px solid var(--white-background);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+
+  display: flex;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 2.0;
-  letter-spacing: 0.48px;
-
-  width: 264px;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid var(--WHITE, #FFF);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  line-height: 1.5px;
+  letter-spacing: 0.04px;
 }
