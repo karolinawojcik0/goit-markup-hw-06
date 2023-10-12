@@ -753,4 +753,19 @@ ol {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.modal-form {
+  margin-bottom: 8px;
+}
+
+.modal-label {
+  color: var(--subtle-text);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  display: block;
+  margin-bottom: 4px;
 }
