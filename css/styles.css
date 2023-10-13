@@ -842,3 +842,7 @@ ol {
   justify-content: center;
   fill: transparent;
 }
+
+.privacy-policy-link {
+  color: var(--primary-brand);
+}
