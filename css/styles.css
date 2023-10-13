@@ -756,11 +756,11 @@ ol {
   margin-bottom: 16px;
 }
 
-.modal-form {
+.form-name {
   margin-bottom: 8px;
 }
 
-.modal-label {
+.small-text {
   color: var(--subtle-text);
   font-size: 12px;
   line-height: 1.17;
