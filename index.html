@@ -393,8 +393,8 @@
       <div class="subscribe">
         <p class="subscribe-footer">Subscribe</p>
         <form class="newsletter-form">
-          <label class="footer-newsletter-label" for="e-mail">
-            <input class="e-mail" type="email" name="email" placeholder="E-mail" />
+          <label class="footer-newsletter-label" for="email">
+            <input class="e-mail" type="email" name="email" placeholder="email" />
           </label>
 
           <button class="subscribe-btn" type="submit">Subscribe
@@ -458,19 +458,25 @@
           <textarea class="text" id="user-comment" placeholder="Text input" name="user-comment"></textarea>
         </div>
 
+        <!-- CHECKBOX-->
+
         <div class="check">
-          <input class="checkbox visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy">
+
+          <input type="checkbox" class="checkbox-modal visually-hidden" value="true" name="user-privacy">
 
           <label class="terms" for="user-privacy">
+
             <span class="privacy-policy">
               <svg class="user-privacy-svg" width="10" height="8">
                 <use href="./images/icons.svg#icon-checkmark">
                 </use>
               </svg>
             </span>
+
             I accept the terms and conditions of the
             <a href="" class="privacy-policy-link">Privacy Policy</a>
           </label>
+
         </div>
 
         <button class="order-service" type="button">Send</button>

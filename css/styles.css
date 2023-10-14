@@ -854,9 +854,8 @@ ol {
   color: var(--primary-brand);
 }
 
-.checkbox:checked {
+.checkbox-modal:checked+.terms .privacy-policy {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--light);
-
 }
