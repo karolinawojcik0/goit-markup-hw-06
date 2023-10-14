@@ -853,3 +853,9 @@ ol {
 .privacy-policy-link {
   color: var(--primary-brand);
 }
+
+.input-checkbox:checked+.terms {
+  color: var(--pressed-state);
+  border: none;
+  fill: var(--light);
+}
