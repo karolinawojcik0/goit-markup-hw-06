@@ -826,7 +826,7 @@ ol {
   border-color: #4D5AE5;
 }
 
-.check {
+.modal-checkbox {
   margin-bottom: 24px;
 }
 
@@ -852,10 +852,4 @@ ol {
 
 .privacy-policy-link {
   color: var(--primary-brand);
-}
-
-.checkbox-modal:checked+.terms .privacy-policy {
-  background-color: var(--pressed-state);
-  border: none;
-  fill: var(--light);
 }
