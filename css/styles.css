@@ -790,13 +790,16 @@ ol {
   fill: var(--primary-brand);
 }
 
-
 .svg-modal-name {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-modal-name:focus {
+  fill: var(--primary-brand);
 }
 
 .form-four {
@@ -817,6 +820,10 @@ ol {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text:focus {
+  border-color: #4D5AE5;
 }
 
 .check {
