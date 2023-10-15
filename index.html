@@ -395,7 +395,7 @@
         <p class="subscribe-footer">Subscribe</p>
         <form class="newsletter-form">
           <label for="email" class="footer-newsletter-label">
-            <input class="e-mail" type="email" name="email" placeholder="E-mail" />
+            <input class="e-mail-input" type="email" name="email" placeholder="E-mail" />
           </label>
 
           <button class="subscribe-btn" type="submit">Subscribe
@@ -461,17 +461,17 @@
 
         <!-- CHECKBOX-->
 
-        <div class="modal-checkbox">
-
-          <input id="user-privacy" type="checkbox" value="true" name="user-privacy"
-            class="input-checkbox visually-hidden">
+        <div class="modal-terms">
+          <!-- 
+          <input id="user-privacy" type="checkbox" name="user-privacy" class="input-checkbox"> -->
 
           <label for="user-privacy" class="terms">
-            <span class="privacy-policy">
+            <!-- <span class="privacy-policy">
               <svg class="svg-privacy-policy" width="10" height="8">
                 <use href="./images/icons.svg#icon-checkmark"></use>
               </svg>
-            </span>
+            </span> -->
+            <input id="user-privacy" type="checkbox" name="user-privacy" class="input-checkbox">
             I accept the terms and conditions of the
             <a href="" class="privacy-policy-link">Privacy Policy</a>
           </label>
