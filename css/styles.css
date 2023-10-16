@@ -510,6 +510,7 @@ ol {
   gap: 24px;
 }
 
+
 .footer-list {
   display: flex;
   gap: 16px;
@@ -581,7 +582,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid var(--accent);
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .link-card:hover,
