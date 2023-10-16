@@ -856,7 +856,7 @@ ol {
 }
 
 .input-checkbox:checked+.terms .privacy-policy {
-  color: var(--pressed-state);
+  background-color: var(--pressed-state);
   border: none;
   fill: var(--light);
 }
